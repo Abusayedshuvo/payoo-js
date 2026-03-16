@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="min-h-screen bg-[#F4F5F7] flex justify-center items-center">
+      <div class="bg-white p-8 rounded-s-2xl mx-6 w-full">
+        <form>
+          <label class="font-medium" for="">Mobile Number</label>
+          <input
+            id="mobile-num"
+            class="bg-light px-5 py-4 rounded-2xl border-0 block w-full mt-2"
+            placeholder="Enter your number"
+            type="text"
+          />
+          <div class="mt-2 mb-5">
+            <label class="font-medium" for="">4 Digit Pin</label>
+            <input
+              id="pin-num"
+              class="bg-light px-5 py-4 rounded-2xl border-0 block w-full mt-2"
+              placeholder="Enter 4 Digit Pin"
+              type="text"
+            />
+          </div>
+          <button
+            id="login-btn"
+            class="bg-[#3B25C1] text-white w-full py-3 text-xl rounded-3xl font-semibold cursor-pointer"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
